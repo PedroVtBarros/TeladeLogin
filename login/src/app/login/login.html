@@ -1,0 +1,22 @@
+<a href="#">Criar conta</a>
+<br><br>
+
+<form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+  
+  <label>E-mail</label><br>
+  <input type="text" formControlName="email">
+  
+  <br><br>
+
+  <label>Senha</label><br>
+  <input type="password" formControlName="senha">
+  
+  <br><br>
+
+  <a href="#">Esqueci a senha</a>
+  
+  <br><br>
+
+  <button type="submit">ENTRAR</button>
+
+</form>
